@@ -21,6 +21,15 @@ struct CountryDetailView: View {
             .task {
                 await viewModel.getCountryDetail()
             }
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button {
+                        viewModel.addToFavoritesAction()
+                    } label: {
+                        Image(systemName: viewModel.addToFavoritesButtonIcon)
+                    }
+                }
+            }
     }
 
     @ViewBuilder
@@ -147,7 +156,10 @@ struct CountryDetailView: View {
     CountryDetailView(
         viewModel: CountryDetailViewModel(
             tappedCountry: Country(name: "", flagURL: nil, population: 0),
-            getCountryDetailUseCase: GetCountryDetailUseCase()
+            getCountryDetailUseCase: GetCountryDetailUseCase(),
+            addToFavoritesUseCase: AddToFavoritesUseCase(),
+            removeFromFavoritesUseCase: RemoveFromFavoritesUseCase(),
+            isFavoriteUseCase: IsFavoriteUseCase()
         )
     )
 }

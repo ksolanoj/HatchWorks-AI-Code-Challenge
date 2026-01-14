@@ -13,11 +13,7 @@ final class CountriesListViewModel {
     
     // Published Properties
     private(set) var screenState: ScreenState
-    private(set) var filteredCountries: [Country]
-
-    // Properties
-    @ObservationIgnored
-    private var allCountries: [Country]
+    private(set) var allCountries: [Country]
 
     // UseCases
     @ObservationIgnored
@@ -25,7 +21,6 @@ final class CountriesListViewModel {
 
     init(getCountriesUseCase: GetCountriesUseCase) {
         self.screenState = .loading
-        self.filteredCountries = []
         self.allCountries = []
         self.getCountriesUseCase = getCountriesUseCase
     }
@@ -34,7 +29,6 @@ final class CountriesListViewModel {
         do {
             let countries = try await getCountriesUseCase.execute()
             allCountries = countries
-            filteredCountries = countries
             screenState = .loaded
         } catch {
             print("Error Getting Countries - \(String(describing: error))")

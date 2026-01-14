@@ -25,6 +25,9 @@
     "No Data" : {
 
     },
+    "No Favorites Yet" : {
+
+    },
     "Open on Google Maps" : {
 
     },
@@ -44,6 +47,9 @@
 
     },
     "We were unable to load the content, please try again!" : {
+
+    },
+    "You haven't added any countries to your favorites." : {
 
     }
   },

@@ -45,7 +45,11 @@ final class EntryViewModel {
                     )
                 )
             case .favorites:
-                FavoritesView()
+                FavoritesView(
+                    viewModel: FavoritesViewModel(
+                        getFavorites: GetFavoritesUseCase()
+                    )
+                )
             }
         }
     }
