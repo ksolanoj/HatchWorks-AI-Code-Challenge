@@ -2,55 +2,174 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Borders" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fronteras"
+          }
+        }
+      }
     },
     "Countries" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paises"
+          }
+        }
+      }
     },
     "Error while loading" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al cargar"
+          }
+        }
+      }
     },
     "Favorites" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoritos"
+          }
+        }
+      }
     },
     "Information" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información"
+          }
+        }
+      }
     },
     "Languages" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lenguajes"
+          }
+        }
+      }
     },
     "Maps" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mapas"
+          }
+        }
+      }
     },
     "No Data" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin Información"
+          }
+        }
+      }
     },
     "No Favorites Yet" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin Favoritos Aún"
+          }
+        }
+      }
     },
     "Open on Google Maps" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir en Google Maps"
+          }
+        }
+      }
     },
     "Open on Street Maps" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir en Street Maps"
+          }
+        }
+      }
     },
     "Population: %@" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Población: %@"
+          }
+        }
+      }
     },
     "There is no available data for this country" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay información disponible para este país"
+          }
+        }
+      }
     },
     "Timezones" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zonas Horarias"
+          }
+        }
+      }
     },
     "Try Again" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inténtelo otra vez"
+          }
+        }
+      }
     },
     "We were unable to load the content, please try again!" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No pudimos cargar el contenido, intente de nuevo!"
+          }
+        }
+      }
     },
     "You haven't added any countries to your favorites." : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No has añadido ningún país a favoritos."
+          }
+        }
+      }
     }
   },
   "version" : "1.1"
