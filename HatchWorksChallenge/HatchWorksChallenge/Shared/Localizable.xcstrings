@@ -1,7 +1,25 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Hello, world!" : {
+    "Countries" : {
+
+    },
+    "CountriesListView" : {
+
+    },
+    "Error while loading" : {
+
+    },
+    "Favorites" : {
+
+    },
+    "Population: %@" : {
+
+    },
+    "Try Again" : {
+
+    },
+    "We were unable to load the content, please try again!" : {
 
     }
   },
