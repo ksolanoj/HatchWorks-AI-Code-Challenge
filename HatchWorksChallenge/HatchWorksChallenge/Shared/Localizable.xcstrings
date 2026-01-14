@@ -1,12 +1,32 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Area" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Área"
+          }
+        }
+      }
+    },
     "Borders" : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fronteras"
+          }
+        }
+      }
+    },
+    "Capital" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capital"
           }
         }
       }
@@ -111,12 +131,42 @@
         }
       }
     },
+    "Population" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Población"
+          }
+        }
+      }
+    },
     "Population: %@" : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Población: %@"
+          }
+        }
+      }
+    },
+    "Region" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Región"
+          }
+        }
+      }
+    },
+    "Subregion" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subregión"
           }
         }
       }

@@ -136,7 +136,7 @@ struct CountryDetailView: View {
     }
 
     @ViewBuilder
-    func row(_ title: String, _ value: String) -> some View {
+    func row(_ title: LocalizedStringKey, _ value: String) -> some View {
         HStack {
             Text(title)
             Spacer()
