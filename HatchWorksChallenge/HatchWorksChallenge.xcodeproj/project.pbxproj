@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		6C35D7632F17FFFE00FE7653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CF6655E2F1716FF004BFEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CF665652F1716FF004BFEA4;
+			remoteInfo = HatchWorksChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6C35D75F2F17FFFE00FE7653 /* HatchWorksChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HatchWorksChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF665662F1716FF004BFEA4 /* HatchWorksChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HatchWorksChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		6C35D7602F17FFFE00FE7653 /* HatchWorksChallengeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HatchWorksChallengeTests;
+			sourceTree = "<group>";
+		};
 		6CF665682F1716FF004BFEA4 /* HatchWorksChallenge */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HatchWorksChallenge;
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6C35D75C2F17FFFE00FE7653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6CF665632F1716FF004BFEA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				6CF665682F1716FF004BFEA4 /* HatchWorksChallenge */,
+				6C35D7602F17FFFE00FE7653 /* HatchWorksChallengeTests */,
 				6CF665672F1716FF004BFEA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				6CF665662F1716FF004BFEA4 /* HatchWorksChallenge.app */,
+				6C35D75F2F17FFFE00FE7653 /* HatchWorksChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6C35D75E2F17FFFE00FE7653 /* HatchWorksChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C35D7652F17FFFE00FE7653 /* Build configuration list for PBXNativeTarget "HatchWorksChallengeTests" */;
+			buildPhases = (
+				6C35D75B2F17FFFE00FE7653 /* Sources */,
+				6C35D75C2F17FFFE00FE7653 /* Frameworks */,
+				6C35D75D2F17FFFE00FE7653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C35D7642F17FFFE00FE7653 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6C35D7602F17FFFE00FE7653 /* HatchWorksChallengeTests */,
+			);
+			name = HatchWorksChallengeTests;
+			packageProductDependencies = (
+			);
+			productName = HatchWorksChallengeTests;
+			productReference = 6C35D75F2F17FFFE00FE7653 /* HatchWorksChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6CF665652F1716FF004BFEA4 /* HatchWorksChallenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CF665712F171700004BFEA4 /* Build configuration list for PBXNativeTarget "HatchWorksChallenge" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
+					6C35D75E2F17FFFE00FE7653 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 6CF665652F1716FF004BFEA4;
+					};
 					6CF665652F1716FF004BFEA4 = {
 						CreatedOnToolsVersion = 26.2;
 					};
@@ -100,11 +152,19 @@
 			projectRoot = "";
 			targets = (
 				6CF665652F1716FF004BFEA4 /* HatchWorksChallenge */,
+				6C35D75E2F17FFFE00FE7653 /* HatchWorksChallengeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6C35D75D2F17FFFE00FE7653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6CF665642F1716FF004BFEA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +175,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6C35D75B2F17FFFE00FE7653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6CF665622F1716FF004BFEA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +191,62 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6C35D7642F17FFFE00FE7653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CF665652F1716FF004BFEA4 /* HatchWorksChallenge */;
+			targetProxy = 6C35D7632F17FFFE00FE7653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		6C35D7662F17FFFE00FE7653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3B6Q657GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ksolano.dev.HatchWorksChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HatchWorksChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HatchWorksChallenge";
+			};
+			name = Debug;
+		};
+		6C35D7672F17FFFE00FE7653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3B6Q657GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ksolano.dev.HatchWorksChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HatchWorksChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HatchWorksChallenge";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6CF6656F2F171700004BFEA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -248,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B3B6Q657GW;
@@ -275,6 +398,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ksolano.dev.HatchWorksChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -295,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B3B6Q657GW;
@@ -322,6 +447,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ksolano.dev.HatchWorksChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -340,6 +466,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6C35D7652F17FFFE00FE7653 /* Build configuration list for PBXNativeTarget "HatchWorksChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C35D7662F17FFFE00FE7653 /* Debug */,
+				6C35D7672F17FFFE00FE7653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6CF665612F1716FF004BFEA4 /* Build configuration list for PBXProject "HatchWorksChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
