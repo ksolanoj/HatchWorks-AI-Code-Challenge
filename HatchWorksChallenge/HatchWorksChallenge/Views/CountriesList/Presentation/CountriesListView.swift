@@ -33,7 +33,12 @@ struct CountriesListView: View {
             List {
                 ForEach(viewmodel.filteredCountries) { country in
                     NavigationLink {
-                        CountryDetailView()
+                        CountryDetailView(
+                            viewModel: CountryDetailViewModel(
+                                tappedCountry: country,
+                                getCountryDetailUseCase: GetCountryDetailUseCase()
+                            )
+                        )
                     } label: {
                         countryCell(for: country)
                     }

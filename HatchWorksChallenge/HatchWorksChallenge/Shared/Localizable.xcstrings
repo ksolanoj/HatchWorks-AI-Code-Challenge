@@ -1,10 +1,10 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Countries" : {
+    "Borders" : {
 
     },
-    "CountriesListView" : {
+    "Countries" : {
 
     },
     "Error while loading" : {
@@ -13,7 +13,31 @@
     "Favorites" : {
 
     },
+    "Information" : {
+
+    },
+    "Languages" : {
+
+    },
+    "Maps" : {
+
+    },
+    "No Data" : {
+
+    },
+    "Open on Google Maps" : {
+
+    },
+    "Open on Street Maps" : {
+
+    },
     "Population: %@" : {
+
+    },
+    "There is no available data for this country" : {
+
+    },
+    "Timezones" : {
 
     },
     "Try Again" : {
